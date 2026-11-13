@@ -12,9 +12,9 @@ client holds.
   <img src="assets/icon-180.png" width="96" height="96" alt="dsh-chat-find">
 </p>
 
-![Glass find bar over a conversation](assets/preview-light.png)
+![Find bar in the light theme, 1 of 16 matches](assets/screenshot-light.png)
 
-<sub>CSS preview rendered from the shipped stylesheet over a sample transcript; replace with an app screenshot before publishing.</sub>
+![Find bar in the dark theme, 1 of 55 matches](assets/screenshot-dark.png)
 
 ## Install / 安装
 

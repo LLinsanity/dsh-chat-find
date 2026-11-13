@@ -16,17 +16,8 @@ Everything local is done. The remaining steps need your GitHub and npm accounts.
 
 ## 2. Screenshots (recommended before the PR)
 
-Take real app screenshots (light + dark, one showing a query with a match
-counter). Put them in `assets/screenshot-1.png`, `assets/screenshot-2.png` and
-declare them:
-
-```json
-["assets/screenshot-1.png", "assets/screenshot-2.png"]
-```
-
-Save that as `screenshots.json` next to `package.json`, then add `"screenshots.json"`
-back to `files`. The CSS previews currently in `assets/` are design references,
-not app shots — replace them in the README before publishing.
+Done: `assets/screenshot-light.png` and `assets/screenshot-dark.png` are real
+app shots and are declared in `screenshots.json`.
 
 ## 3. Publish to npm (optional but recommended)
 
