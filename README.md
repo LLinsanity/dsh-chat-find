@@ -18,17 +18,17 @@ client holds.
 
 ## Install / 安装
 
-```sh
-dsh plugin --profile desktop add dsh-chat-find
-```
-
-From source / 从源码安装：
+The plugin installs straight from GitHub; there is no npm package and no build
+step. 直接从 GitHub 安装，没有 npm 包，也不需要构建：
 
 ```sh
-dsh plugin --profile desktop add git+https://github.com/<owner>/dsh-chat-find
+dsh plugin --profile desktop add git+https://github.com/LLinsanity/dsh-chat-find
 ```
 
 Refresh the page once after installing (`Ctrl+R`).
+
+已发布到 npm 的版本（如后续发布）也可以用短名字安装：
+`dsh plugin --profile desktop add dsh-chat-find`。
 
 ## Usage / 用法
 

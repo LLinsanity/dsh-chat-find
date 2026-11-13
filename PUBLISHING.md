@@ -19,14 +19,22 @@ Everything local is done. The remaining steps need your GitHub and npm accounts.
 Done: `assets/screenshot-light.png` and `assets/screenshot-dark.png` are real
 app shots and are declared in `screenshots.json`.
 
-## 3. Publish to npm (optional but recommended)
+## 3. Publish to npm (optional)
+
+There is no npm account for this project, and the catalog does not require one:
+GitHub-only entries install from `git+https://github.com/LLinsanity/dsh-chat-find`
+and work the same way. Publishing later only adds a download figure and lets
+users install by the short package name.
+
+If an account is created later:
 
 ```sh
+npm login --auth-type=web
 npm publish --access public
 ```
 
-The published package's `repository` field must point at the repository listed
-below, or the catalog will not link the two. `private` is already removed.
+The published package's `repository` field must point at this repository or the
+catalog will not link the two. `private` is already removed.
 
 ## 4. Submit to the catalog
 
