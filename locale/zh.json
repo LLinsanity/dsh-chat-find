@@ -1,0 +1,20 @@
+{
+  "meta": {
+    "title": "对话内查找",
+    "description": "在桌面端按 Ctrl+F 检索当前对话中的文字，显示命中数量、高亮命中并跳转，命中较早内容时可加载更早的历史。"
+  },
+  "command.find": "在对话中查找",
+  "title": "在对话中查找",
+  "placeholder": "在当前对话中查找",
+  "close": "关闭",
+  "previous": "上一个",
+  "next": "下一个",
+  "refresh": "重新搜索",
+  "count": "{index}/{total}",
+  "noResults": "没有匹配项",
+  "empty": "输入关键词开始查找",
+  "scopeHint": "搜索你的消息与回复内容",
+  "loadingHistory": "正在加载更早的历史…",
+  "historyLoaded": "更早的历史已加载",
+  "loadAll": "加载更早的历史"
+}

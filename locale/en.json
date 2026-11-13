@@ -1,0 +1,20 @@
+{
+  "meta": {
+    "title": "Find in conversation",
+    "description": "Press Ctrl+F in the desktop app to find text in the current conversation, with match counts, highlighting, jump-to-match, and on-demand loading of earlier history."
+  },
+  "command.find": "Find in conversation",
+  "title": "Find in conversation",
+  "placeholder": "Find in this conversation",
+  "close": "Close",
+  "previous": "Previous match",
+  "next": "Next match",
+  "refresh": "Search again",
+  "count": "{index}/{total}",
+  "noResults": "No matches",
+  "empty": "Type to find text",
+  "scopeHint": "Searches your messages and replies",
+  "loadingHistory": "Loading earlier history…",
+  "historyLoaded": "Earlier history loaded",
+  "loadAll": "Load earlier history"
+}
